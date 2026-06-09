@@ -1,0 +1,15 @@
+..\obj\step_counter.o: ..\HARDWARE\STEP_COUNTER\STEP_COUNTER.c
+..\obj\step_counter.o: ..\HARDWARE\STEP_COUNTER\STEP_COUNTER.h
+..\obj\step_counter.o: ..\USER\stm32f10x.h
+..\obj\step_counter.o: ..\CORE\core_cm3.h
+..\obj\step_counter.o: D:\keil_51\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\step_counter.o: ..\USER\system_stm32f10x.h
+..\obj\step_counter.o: ..\USER\stm32f10x_conf.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\step_counter.o: ..\USER\stm32f10x.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\stm32f10x_i2c.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\step_counter.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\step_counter.o: ..\HARDWARE\MPU6050\MPU6050_Reg.h
