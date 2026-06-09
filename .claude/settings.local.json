@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '227s/^.*$/\t\t\tif \\(heart_rate\\)/' main.c)",
+      "Bash(sed -i '228s/^.*$/\t\t\t\tOLED_Printf\\(0, 32, OLED_8X16, \"HR:%03d BPM\", heart_rate\\);/' main.c)",
+      "Bash(sed -i '229s/^.*$/\t\t\telse/' main.c)",
+      "Bash(sed -i '230s/^.*$/\t\t\t\tOLED_Printf\\(0, 32, OLED_8X16, \"HR: -- BPM\"\\);/' main.c)",
+      "Bash(sed -i '232s/^.*$/\t\t\tif \\(spo2\\)/' main.c)"
+    ]
+  }
+}
